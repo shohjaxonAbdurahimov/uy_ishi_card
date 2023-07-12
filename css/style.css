@@ -1,0 +1,147 @@
+
+ body {
+   font-family: 'Overpass', sans-serif;
+ }
+body {
+  font-family: 'Overpass', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(3, 3, 6);
+}
+main{
+    display: flex;
+margin-top: 200px;
+}
+.main__card{
+    padding: 32px;
+    border-radius: 20px;
+    margin: auto;
+    width: 412px;
+height: 416px;
+background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+
+
+}
+.main__card--img{
+    width: 48px;
+    height: 48px;
+    top: 32px;
+    left: 32px;
+    background-color: #262E38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+border-radius: 50px;
+}
+.main__card--title{
+font-family: Overpass;
+font-size: 28px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0px;
+text-align: left;
+color: #ffffff;
+margin-bottom: 8px;
+}
+.main__card--text{
+font-family: Overpass;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+color: #969FAD;
+margin-bottom: 24px;
+}
+.oval:hover{
+    background-color: #FC7614;
+}
+.oval{
+    transition: 0.4s linear;
+    background: #262E38;
+color: white;
+    width: 51px;
+height: 51px;
+border-radius: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.main__card__ovals{
+    display: flex;
+    gap: 21px;
+    margin-bottom: 32px;
+}
+
+.card__button{
+    
+    width: 341px;
+height: 45px;
+background: #FC7614;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Overpass'sans-serif;
+font-size: 15px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 2px;
+text-align: left;
+color: #ffffff;
+border-radius: 20px;
+transition: 0.4s ; 
+}
+.card__button:hover{
+    background-color: #ffffff;
+    color: #FC7614;
+}
+
+.main__card_2--img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.main__card_2--btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Overpass;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: center;
+color: #FC7614;
+width: 193px;
+height: 32px;
+background: #262E38;
+border-radius: 20px;
+margin-bottom: 32px;
+}
+.title{
+text-align: center;
+font-family: Overpass;
+font-size: 28px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0px;
+color: #ffffff;
+margin-bottom: 8px;
+}
+.main__card_2--text{
+font-family: Overpass;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: center;
+color: #969FAD;
+}
